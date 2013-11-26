@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CreateCustomerSuite" parallel="none">
+  <test name="Test">
+    <classes>      
+      <class name="com.actitime.module2.At_CreateCustomerValid"/>
+      <class name="com.actitime.module2.At_DeleteCreatedCustomer"/>
+      <class name="com.actitime.module2.At_CreateCustomer_Invalid"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- CreateCustomerSuite -->

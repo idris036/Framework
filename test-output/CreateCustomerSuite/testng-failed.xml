@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [CreateCustomerSuite]" parallel="none">
+  <test name="Test(failed)" parallel="none">
+    <classes>
+      <class name="com.actitime.module2.At_CreateCustomer_Invalid">
+        <methods>
+          <include name="postCondition"/>
+          <include name="testAt_CreateCustomer_Invalid"/>
+          <include name="preCondition"/>
+        </methods>
+      </class> <!-- com.actitime.module2.At_CreateCustomer_Invalid -->
+      <class name="com.actitime.module2.At_CreateCustomerValid">
+        <methods>
+          <include name="postCondition"/>
+          <include name="preCondition"/>
+          <include name="testAt_CreateCustomerValid"/>
+        </methods>
+      </class> <!-- com.actitime.module2.At_CreateCustomerValid -->
+      <class name="com.actitime.module2.At_DeleteCreatedCustomer">
+        <methods>
+          <include name="testAt_DeleteCreatedCustomer"/>
+          <include name="postCondition"/>
+          <include name="preCondition"/>
+        </methods>
+      </class> <!-- com.actitime.module2.At_DeleteCreatedCustomer -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [CreateCustomerSuite] -->

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="LoginSuite" parallel="none">
+  <test name="Test">
+    <classes>
+      <class name="com.actitime.module1.At_LoginValid"/>
+      <class name="com.actitime.module1.At_LoginInvalid"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- LoginSuite -->

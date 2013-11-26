@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [LoginSuite]" parallel="none">
+  <test name="Test(failed)" parallel="none">
+    <classes>
+      <class name="com.actitime.module1.At_LoginValid">
+        <methods>
+          <include name="postCondition"/>
+          <include name="testAt_LoginValid"/>
+          <include name="preCondition"/>
+        </methods>
+      </class> <!-- com.actitime.module1.At_LoginValid -->
+      <class name="com.actitime.module1.At_LoginInvalid">
+        <methods>
+          <include name="testAt_LoginInvalid"/>
+          <include name="postCondition"/>
+          <include name="preCondition"/>
+        </methods>
+      </class> <!-- com.actitime.module1.At_LoginInvalid -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [LoginSuite] -->
